@@ -16,15 +16,14 @@
     </div><!-- /.footer-logo -->
 
      <div class="module-body m-t-20">
-        <p class="about-us"> Platea21, tienda virtual en php & mysql (Código Abierto).</p>
+        <p class="about-us"> Tienda TM .</p>
     
         <div class="social-icons">
             
-        <a href="https://facebook.com/platea21" class='active'><i class="icon fa fa-facebook"></i></a>
-        <a href="https://platea21.blogspot.com"><i class="icon fa fa-twitter"></i></a>
-        <a href="https://platea21.blogspot.com"><i class="icon fa fa-linkedin"></i></a>
-        <a href="https://platea21.blogspot.com"><i class="icon fa fa-rss"></i></a>
-        <a href="https://platea21.blogspot.com"><i class="icon fa fa-pinterest"></i></a>
+        <a href="https://www.facebook.com/tmcapcl" class='active'><i class="icon fa fa-facebook"></i></a>
+        <a href="https://twitter.com/tmcapcl"><i class="icon fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/tmcapcl/"><i class="icon fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCO9baMPPgUC-jwJNI4Od6Dw"><i class="icon fa fa-youtube"></i></a>
 
         </div><!-- /.social-icons -->
     </div><!-- /.module-body -->
@@ -57,7 +56,7 @@
             		 <!-- ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
 	<div class="module-heading">
-		<h4 class="module-title">Información</h4>
+		<h4 class="module-title">Conctáctenos</h4>
 	</div><!-- /.module-heading -->
 
 	<div class="module-body outer-top-xs">
@@ -70,7 +69,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>Tacna, Perú</p>
+                    <p>Los Copihues 181, Penco</p>
                 </div>
             </li>
 
@@ -82,7 +81,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>(+51) 948445199<br>(+51) 948445199</p>
+                    <p>(+56) 412513199<br>(+56) 952013781</p>
                 </div>
             </li>
 
@@ -94,7 +93,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <span><a href="#">gorchor@gmail.com</a></span>
+                    <span><a href="#">contacto@tmcapacitacion.cl</a></span>
                 </div>
             </li>
               

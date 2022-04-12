@@ -50,7 +50,7 @@ if(!empty($_SESSION['cart'])){
 				<div class="total-price-basket">
 					<span class="lbl">Carrito -</span>
 					<span class="total-price">
-						<span class="sign">$.</span>
+						<span class="sign">$</span>
 						<span class="value"><?php echo $_SESSION['tp']; ?></span>
 					</span>
 				</div>
@@ -93,7 +93,7 @@ if(!empty($_SESSION['cart'])){
 						<div class="col-xs-7">
 							
 							<h3 class="name"><a href="index.php?page-detail"><?php echo $row['productName']; ?></a></h3>
-							<div class="price">$.<?php echo ($row['productPrice']+$row['shippingCharge']); ?>*<?php echo $_SESSION['cart'][$row['id']]['quantity']; ?></div>
+							<div class="price">$<?php echo ($row['productPrice']+$row['shippingCharge']); ?>*<?php echo $_SESSION['cart'][$row['id']]['quantity']; ?></div>
 						</div>
 						
 					</div>
@@ -106,7 +106,7 @@ if(!empty($_SESSION['cart'])){
 			<div class="clearfix cart-total">
 				<div class="pull-right">
 					
-						<span class="text">Total :</span><span class='price'>$.<?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
+						<span class="text">Total :</span><span class='price'>$<?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
 						
 				</div>
 			
@@ -126,8 +126,8 @@ if(!empty($_SESSION['cart'])){
 				<div class="total-price-basket">
 					<span class="lbl">carrito -</span>
 					<span class="total-price">
-						<span class="sign">$.</span>
-						<span class="value">00.00</span>
+						<span class="sign">$</span>
+						<span class="value">0</span>
 					</span>
 				</div>
 				<div class="basket">
