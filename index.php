@@ -206,9 +206,10 @@ while ($row=mysqli_fetch_array($ret))
 			<div class="description"></div>
 
 			<div class="product-price">	
+				
 				<span class="price">
 					$ <?php 
-					
+						
 					echo htmlentities($row['productPrice']);?>			</span>
 										     <span class="price-before-discount">$<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
 									
