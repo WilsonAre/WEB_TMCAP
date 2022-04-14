@@ -33,25 +33,11 @@
 
             	<div class="col-xs-12 col-sm-6 col-md-4">
             		 <!-- ============================================================= CONTACT TIMING============================================================= -->
-<div class="contact-timing">
-	<div class="module-heading">
-		<h4 class="module-title">Horario de atención al cliente</h4>
-	</div><!-- /.module-heading -->
-
-	<div class="module-body outer-top-xs">
-		<div class="table-responsive">
-			<table class="table">
-				<tbody>
-					<tr><td>Lunes-Viernes:</td><td class="pull-right">08:00 a 18:00 hrs</td></tr>
-					<tr><td>Sábados:</td><td class="pull-right">09:00 a 20:00</td></tr>
-					<tr><td>Domingos:</td><td class="pull-right">10:00 a 20:00</td></tr>
-				</tbody>
-			</table>
-		</div><!-- /.table-responsive -->
-	</div><!-- /.module-body -->
-</div><!-- /.contact-timing -->
+                <img src="img/webpay-logo (1).png" alt="logo" class="logo_footer" width="230" height="100">
+                
+                <img src="img/Logo-tm.png" alt="logo" class="logo_footer" width="230" height="125">
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
-
+                
             	<div class="col-xs-12 col-sm-6 col-md-4">
             		 <!-- ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
@@ -104,5 +90,12 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.links-social -->
+<div class="container">
+    <center>
+    <p>Copyright 2022 ©  TM Capacitación. Todos los Derechos Reservados.</p>
 
+    </center>
+  
+</div>
+    <br>
     
