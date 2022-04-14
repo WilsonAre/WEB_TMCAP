@@ -9,14 +9,14 @@
         <div class="logo">
             <a href="index.php">
                 
-<h3>TM Capacitación</h3>
+            <img src="img/Logo-tm.png" alt="logo" class="logo_footer" width="200" height="110">
             </a>
         </div><!-- /.logo -->
     
     </div><!-- /.footer-logo -->
 
      <div class="module-body m-t-20">
-        <p class="about-us"> Tienda TM .</p>
+        <p class="about-us"> Nuestras Redes Sociales:</p>
     
         <div class="social-icons">
             
@@ -33,9 +33,10 @@
 
             	<div class="col-xs-12 col-sm-6 col-md-4">
             		 <!-- ============================================================= CONTACT TIMING============================================================= -->
-                <img src="img/webpay-logo (1).png" alt="logo" class="logo_footer" width="230" height="100">
+                    <br>
+                     <img src="img/webpay-logo (1).png" alt="logo" class="logo_footer" width="270" height="100">
                 
-                <img src="img/Logo-tm.png" alt="logo" class="logo_footer" width="230" height="125">
+               
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
                 
             	<div class="col-xs-12 col-sm-6 col-md-4">

@@ -115,7 +115,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 				<div class="info-box">
 					<div class="row">
 						<div class="col-xs-2">
-						     <i class="icon fa fa-dollar"></i>
+						     <i class="icon fa fa-graduation-cap"></i>
 						</div>
 						<div class="col-xs-10">
 							<h4 class="info-box-heading green">Cursos especializados</h4>
@@ -129,7 +129,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 				<div class="info-box">
 					<div class="row">
 						<div class="col-xs-2">
-							<i class="icon fa fa-truck"></i>
+							<i class="icon fa fa-book"></i>
 						</div>
 						<div class="col-xs-10">
 							<h4 class="info-box-heading orange">Recursos disponibles</h4>
@@ -143,7 +143,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 				<div class="info-box">
 					<div class="row">
 						<div class="col-xs-2">
-							<i class="icon fa fa-gift"></i>
+							<i class="icon fa fa-laptop"></i>
 						</div>
 						<div class="col-xs-10">
 							<h4 class="info-box-heading red">E-learning</h4>
@@ -162,6 +162,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		</div><!-- /.row -->
 
 		<!-- ============================================== SCROLL TABS ============================================== -->
+	    <br>
 		<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
 			   <h3 class="new-product-title pull-left">Cursos Destacados</h3>

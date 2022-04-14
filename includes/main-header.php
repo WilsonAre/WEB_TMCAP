@@ -20,14 +20,14 @@
 <div class="logo">
 	<a href="index.php">
 		
-	<img src="img/Logo-tm.png" alt="logo" class="logo_footer" width="200" height="120">
+	<img src="img/Logo-tm.png" alt="logo" class="logo_footer" width="150" height="90">
 
 	</a>
 </div>		
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
 	<br>
-	<br>
+	
 <div class="search-area">
     <form name="search" method="post" action="search-result.php">
 		
@@ -44,7 +44,7 @@
 
 				<div class="col-xs-12 col-sm-12 col-md-3 animate-dropdown top-cart-row">
 						<!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-<br>
+
 <br>
 <?php
 if(!empty($_SESSION['cart'])){
