@@ -208,24 +208,24 @@ while($rw=mysqli_fetch_array($query))
 <div class="control-group">
 <label class="control-label" for="basicinput">Imagen 01 del producto</label>
 <div class="controls">
-<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage1']);?>" width="200" height="100"> <a href="update-image1.php?id=<?php echo $row['id'];?>">Change Image</a>
+<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage1']);?>" width="200" height="100"> <a href="update-image1.php?id=<?php echo $row['id'];?>">Cambiar Imagen</a>
 </div>
 </div>
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Imagen 01 del producto</label>
+<label class="control-label" for="basicinput">Imagen 02 del producto</label>
 <div class="controls">
-<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage2']);?>" width="200" height="100"> <a href="update-image2.php?id=<?php echo $row['id'];?>">Change Image</a>
+<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage2']);?>" width="200" height="100"> <a href="update-image2.php?id=<?php echo $row['id'];?>">Cambiar Imagen</a>
 </div>
 </div>
 
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Imagen 01 del producto</label>
+<label class="control-label" for="basicinput">Imagen 03 del producto</label>
 <div class="controls">
-<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage3']);?>" width="200" height="100"> <a href="update-image3.php?id=<?php echo $row['id'];?>">Change Image</a>
+<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage3']);?>" width="200" height="100"> <a href="update-image3.php?id=<?php echo $row['id'];?>">Cambiar Imagen</a>
 </div>
 </div>
 <?php } ?>

@@ -51,7 +51,7 @@ exit();
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" href="index.php">
 			  		Plataforma Virtual TM capacitacion | Admin
 			  	</a>
 
@@ -87,11 +87,13 @@ exit();
 						<div class="module-body">
 							<div class="control-group">
 								<div class="controls row-fluid">
+								    <label><b>Usuario:</b></label>
 									<input class="span12" type="text" id="inputEmail" name="username" placeholder="Usuario">
 								</div>
 							</div>
 							<div class="control-group">
 								<div class="controls row-fluid">
+								<label><b>Contraseña:</b></label>
 						<input class="span12" type="password" id="inputPassword" name="password" placeholder="Contraseña">
 								</div>
 							</div>

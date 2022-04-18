@@ -5,7 +5,7 @@
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" href="index.php">
 			  		Tienda Virtual Platea21 | Admin
 			  	</a>
 

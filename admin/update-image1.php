@@ -69,7 +69,9 @@ $("#suggesstion-box").hide();
 
 						<div class="module">
 							<div class="module-head">
-								<h3>Update Product Image 1</h3>
+								<h3>Actualizar imagen del producto 1</h3>
+								
+								
 							</div>
 							<div class="module-body">
 
@@ -77,7 +79,7 @@ $("#suggesstion-box").hide();
 {?>
 									<div class="alert alert-success">
 										<button type="button" class="close" data-dismiss="alert">×</button>
-									<strong>Well done!</strong>	<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
+									<strong>Bien Hecho!</strong>	<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
 									</div>
 <?php } ?>
 
@@ -100,7 +102,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Name</label>
+<label class="control-label" for="basicinput">Nombre Producto</label>
 <div class="controls">
 <input type="text"    name="productName"  readonly value="<?php echo htmlentities($row['productName']);?>" class="span8 tip" required>
 </div>
@@ -108,7 +110,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Current Product Image1</label>
+<label class="control-label" for="basicinput">Imagen del producto actual 1</label>
 <div class="controls">
 <img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage1']);?>" width="200" height="100"> 
 </div>
@@ -117,7 +119,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">New Product Image1</label>
+<label class="control-label" for="basicinput">Imagen Del Nuevo Producto 1</label>
 <div class="controls">
 <input type="file" name="productimage1" id="productimage1" value="" class="span8 tip" required>
 </div>
@@ -128,7 +130,7 @@ while($row=mysqli_fetch_array($query))
 
 	<div class="control-group">
 											<div class="controls">
-												<button type="submit" name="submit" class="btn">Update</button>
+												<button type="submit" name="submit" class="btn">Actualizar</button>
 											</div>
 										</div>
 									</form>

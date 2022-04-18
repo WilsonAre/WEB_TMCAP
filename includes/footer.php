@@ -34,7 +34,7 @@
             	<div class="col-xs-12 col-sm-6 col-md-4">
             		 <!-- ============================================================= CONTACT TIMING============================================================= -->
                     <br>
-                     <img src="img/webpay-logo (1).png" alt="logo" class="logo_footer" width="270" height="100">
+                     <img src="img/webpay-logo (1).png" alt="logo" class="logo_footer" width="290" height="90">
                 
                
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
