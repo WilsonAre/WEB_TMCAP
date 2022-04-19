@@ -48,6 +48,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+		
 
 		<!-- Demo Purpose Only. Should be removed in production -->
 		<link rel="stylesheet" href="assets/css/config.css">
@@ -61,7 +62,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel="shortcut icon" href="assets/images/favicon.png">
 
 	</head>
     <body class="cnt-home">

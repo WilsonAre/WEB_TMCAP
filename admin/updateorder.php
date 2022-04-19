@@ -36,6 +36,7 @@ window.print();
 <title>Actualizar pedido</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="anuj.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/icons/favicon.png">
 </head>
 <body>
 

@@ -34,7 +34,7 @@
         <div class="control-group">
             
             <input class="search-field" placeholder="Buscar aqui..." name="product" required="required" />
-
+            
             <button class="search-button" type="submit" name="search"></button>    
 
         </div>

@@ -38,6 +38,7 @@ if(isset($_GET['del']))
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
 	<link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
 	<link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
+	<link rel="icon" href="images/icons/favicon.png">
 </head>
 <body>
 <?php include('include/header.php');?>
@@ -106,7 +107,7 @@ if(isset($_GET['del']))
 								<h3>Administrar Categorias</h3>
 							</div>
 							<div class="module-body table">
-								<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">
+								<table id="sample_1" cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">
 									<thead>
 										<tr>
 											<th>#</th>
@@ -155,6 +156,7 @@ while($row=mysqli_fetch_array($query))
 	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
 	<script src="scripts/datatables/jquery.dataTables.js"></script>
+	<script src="assets/js/table-data.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('.datatable-1').dataTable();

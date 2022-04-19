@@ -24,6 +24,7 @@ $currentTime = date( 'd-m-Y h:i:s A', time () );
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
 	<link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
 	<link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
+	<link rel="icon" href="images/icons/favicon.png">
 	<script language="javascript" type="text/javascript">
 var popUpWin=0;
 function popUpWindow(URLStr, left, top, width, height)

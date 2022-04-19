@@ -49,7 +49,7 @@ $log=mysqli_query($con,"insert into userlog(userEmail,userip,status) values('$em
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 header("location:http://$host$uri/$extra");
-$_SESSION['errmsg']="Invalid email id or Password";
+$_SESSION['errmsg']="Correo electrónico o contraseña no válidos";
 exit();
 }
 }
@@ -104,7 +104,7 @@ exit();
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel="shortcut icon" href="assets/images/favicon.png">
 <script type="text/javascript">
 function valid()
 {

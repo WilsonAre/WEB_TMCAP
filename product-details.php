@@ -76,7 +76,7 @@ if(isset($_POST['submit']))
 
         <!-- Fonts --> 
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel="shortcut icon" href="assets/images/favicon.png">
 	</head>
     <body class="cnt-home">
 	
