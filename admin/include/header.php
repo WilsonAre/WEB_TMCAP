@@ -6,7 +6,7 @@
 				</a>
 
 			  	<a class="brand" href="index.php">
-			  		Tienda Virtual Platea21 | Admin
+			  		TM Capacitación | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
