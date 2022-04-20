@@ -43,11 +43,11 @@ else{
 									<thead>
 										<tr>
 											<th>#</th>
-											<th> User Email</th>
-											<th>User IP </th>
-											<th>Login Time</th>
-											<th>Logout Time </th>
-											<th>Status </th>
+											<th>Correo electrónico</th>
+											<th>IP Usuario</th>
+											<th>Hora de inicio de sesión</th>
+											<th>Hora de cierre de sesión</th>
+											<th>Estado</th>
 											
 										</tr>
 									</thead>
@@ -68,11 +68,11 @@ while($row=mysqli_fetch_array($query))
 
 if($st==1)
 {
-	echo "Successfull";
+	echo "Exitoso";
 }
 else
 {
-	echo "Failed";
+	echo "Fallida";
 }
 										 ?></td>
 											

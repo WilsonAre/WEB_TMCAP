@@ -77,7 +77,7 @@ $("#suggesstion-box").hide();
 								<h3>Editar productos</h3>
 								<form class="container" align="right">
                                   <a href="manage-products.php">
-                                  <input type="button" value="Volver Atrás">
+                                  <input type="button" class="btn" value="Volver Atrás">
                                   </a>
                                 </form>
 								<br>
