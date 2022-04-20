@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
 	$description=$_POST['description'];
 	$id=intval($_GET['id']);
 $sql=mysqli_query($con,"update category set categoryName='$category',categoryDescription='$description',updationDate='$currentTime' where id='$id'");
-$_SESSION['msg']="Category Updated !!";
+$_SESSION['msg']="Categoría Actualizada !!";
 
 }
 
@@ -27,7 +27,7 @@ $_SESSION['msg']="Category Updated !!";
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| Categoria</title>
+	<title>Admin| Categoría</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
