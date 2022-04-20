@@ -64,6 +64,8 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.png">
 
+	
+
 	</head>
     <body class="cnt-home">
 	
@@ -498,6 +500,8 @@ while ($row=mysqli_fetch_array($ret))
 				</div><?php } ?>
 							</div>
 		</section>
+
+	
 <?php include('includes/brands-slider.php');?>
 </div>
 </div>

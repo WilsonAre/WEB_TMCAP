@@ -11,6 +11,7 @@
 				<div class="item">
 					<a href="#" class="image">
 						<img data-echo="brandsimage/bajaj.jpg" src="assets/images/blank.gif" alt="">
+						
 					</a>	
 				</div><!--/.item-->
 
