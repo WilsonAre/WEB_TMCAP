@@ -35,7 +35,7 @@ exit();
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tienda Virtual Platea21 | Admin login</title>
+	<title>Tienda Virtual TM CAPACITACIÓN | Admin login</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -54,7 +54,7 @@ exit();
 				</a>
 
 			  	<a class="brand" href="index.php">
-			  		Plataforma Virtual TM capacitacion | Admin
+			  		Plataforma Virtual TM CAPACITACIÓN | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
@@ -118,7 +118,7 @@ exit();
 		<div class="container">
 			 
 
-			<b class="copyright">&copy; 2020 Tienda Virtual - <a href="https://platea21.blogspot.com/"> https://platea21.blogspot.com</a> </b> Todos los derechos reservados.
+			<b class="copyright">&copy; 2022 TM CAPACITACIÓN - </b> Todos los derechos reservados.
 		</div>
 	</div>
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
