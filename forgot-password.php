@@ -17,7 +17,7 @@ mysqli_query($con,"update users set password='$password' WHERE email='$email' an
 $host=$_SERVER['HTTP_HOST'];
 $uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 header("location:http://$host$uri/$extra");
-$_SESSION['errmsg']="Password Changed Successfully";
+$_SESSION['errmsg']="Contraseña cambiada con éxito";
 exit();
 }
 else
@@ -26,7 +26,7 @@ $extra="forgot-password.php";
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 header("location:http://$host$uri/$extra");
-$_SESSION['errmsg']="Invalid email id or Contact no";
+$_SESSION['errmsg']="ID de correo electrónico no válido o número de contacto";
 exit();
 }
 }

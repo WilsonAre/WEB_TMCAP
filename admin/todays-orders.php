@@ -7,7 +7,7 @@ if(strlen($_SESSION['alogin'])==0)
 header('location:index.php');
 }
 else{
-date_default_timezone_set('America/Lima');// change according timezone
+date_default_timezone_set('America/Santiago');// change according timezone
 $currentTime = date( 'd-m-Y h:i:s A', time () );
 
 
@@ -63,7 +63,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 									<br />
 
 							
-			<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display table-responsive" >
+			<table id="sample_1" cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display table-responsive" >
 									<thead>
 										<tr>
 											<th>#</th>
@@ -126,6 +126,7 @@ while($row=mysqli_fetch_array($query))
 	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
 	<script src="scripts/datatables/jquery.dataTables.js"></script>
+	<script src="assets/js/table-data.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('.datatable-1').dataTable();

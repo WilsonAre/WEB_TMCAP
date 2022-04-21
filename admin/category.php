@@ -16,14 +16,14 @@ if(isset($_POST['submit']))
 	$category=$_POST['category'];
 	$description=$_POST['description'];
 $sql=mysqli_query($con,"insert into category(categoryName,categoryDescription) values('$category','$description')");
-$_SESSION['msg']="Category Created !!";
+$_SESSION['msg']="Categoría Creada !!";
 
 }
 
 if(isset($_GET['del']))
 		  {
 		          mysqli_query($con,"delete from category where id = '".$_GET['id']."'");
-                  $_SESSION['delmsg']="Category deleted !!";
+                  $_SESSION['delmsg']="Categoría eliminada !!";
 		  }
 
 ?>

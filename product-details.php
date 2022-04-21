@@ -14,7 +14,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 			$_SESSION['cart'][$row_p['id']]=array("quantity" => 1, "price" => $row_p['productPrice']);
 			header('location:my-cart.php');
 		}else{
-			$message="Product ID is invalid";
+			$message="El ID del producto no es válido";
 		}
 	}
 }

@@ -14,12 +14,12 @@ else{
 		$query=mysqli_query($con,"update users set name='$name',contactno='$contactno' where id='".$_SESSION['id']."'");
 		if($query)
 		{
-echo "<script>alert('Your info has been updated');</script>";
+echo "<script>alert('Tu información ha sido actualizada');</script>";
 		}
 	}
 
 
-date_default_timezone_set('America/Lima');// change according timezone
+date_default_timezone_set('America/Santiago');// change according timezone
 $currentTime = date( 'd-m-Y h:i:s A', time () );
 
 
@@ -30,7 +30,7 @@ $num=mysqli_fetch_array($sql);
 if($num>0)
 {
  $con=mysqli_query($con,"update students set password='".md5($_POST['newpass'])."', updationDate='$currentTime' where id='".$_SESSION['id']."'");
-echo "<script>alert('Password Changed Successfully !!');</script>";
+echo "<script>alert('Contraseña cambiada con éxito !!');</script>";
 }
 else
 {

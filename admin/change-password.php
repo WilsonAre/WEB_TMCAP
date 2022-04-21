@@ -18,11 +18,11 @@ $num=mysqli_fetch_array($sql);
 if($num>0)
 {
  $con=mysqli_query($con,"update admin set password='".md5($_POST['newpassword'])."', updationDate='$currentTime' where username='".$_SESSION['alogin']."'");
-$_SESSION['msg']="Password Changed Successfully !!";
+$_SESSION['msg']="Contraseña cambiada con éxito !!";
 }
 else
 {
-$_SESSION['msg']="Old Password not match !!";
+$_SESSION['msg']="La contraseña anterior no coincide !!";
 }
 }
 ?>

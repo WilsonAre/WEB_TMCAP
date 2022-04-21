@@ -29,7 +29,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 header('location:my-wishlist.php');
 }
 		else{
-			$message="Product ID is invalid";
+			$message="El ID del producto no es válido";
 		}
 	}
 }
