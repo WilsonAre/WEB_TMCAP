@@ -54,7 +54,7 @@ exit();
 				</a>
 
 			  	<a class="brand" href="index.php">
-			  		Plataforma Virtual TM CAPACITACIÓN | Admin
+			  		Plataforma Virtual TM CAPACITACIÓN HAHHA20000 | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
