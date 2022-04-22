@@ -20,7 +20,7 @@ exit();
 }
 else
 {
-$_SESSION['errmsg']="Invalid username or password";
+$_SESSION['errmsg']="Usuario o contraseña invalidos";
 $extra="index.php";
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
