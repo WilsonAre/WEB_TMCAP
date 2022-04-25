@@ -27,15 +27,10 @@ else{ ?>
 				<li><a href="logout.php"><i class="icon fa fa-sign-out"></i>Cerrar sesión</a></li>
 				<?php } ?>
 					<li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#change-colors" aria-expanded="false">Colores</a>
+                                
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li role="presentation"><a role="menuitem" class="changecolor green-text" tabindex="-1" href="#" title="Green color">Verde</a></li>
                                     <li role="presentation"><a role="menuitem" class="changecolor blue-text" tabindex="-1" href="#" title="Blue color">Azul</a></li>
-                                    <li role="presentation"><a role="menuitem" class="changecolor orange-text" tabindex="-1" href="#" title="Orange color">Naranja</a></li>
-									<li role="presentation"><a role="menuitem" class="changecolor red-text" tabindex="-1" href="#" title="Red color">Rojo</a></li>                                    
-                                    <li role="presentation"><a role="menuitem" class="changecolor navy-text" tabindex="-1" href="#" title="Navy color">Militar</a></li>
-                                    <li role="presentation"><a role="menuitem" class="changecolor dark-green-text" tabindex="-1" href="#" title="Darkgreen color">Verde</a></li>
                                 </ul>
                             </li>
 				</ul>
