@@ -82,6 +82,8 @@ exit();
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.png">
+
+		
 <script type="text/javascript">
 function valid()
 {

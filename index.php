@@ -111,7 +111,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 #myDiv {
   display: none;
-  text-align: center;
+  
 }
 </style>
 
