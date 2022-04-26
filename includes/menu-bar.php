@@ -13,7 +13,7 @@
                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
 	<div class="nav-outer">
 		<ul class="nav navbar-nav">
-			<li class="dropdown yamm-fw">
+			<li class="active dropdown yamm-fw">
 				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Inicio</a>
                
 				
