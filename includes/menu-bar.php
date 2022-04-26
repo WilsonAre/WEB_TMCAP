@@ -15,18 +15,19 @@
 		<ul class="nav navbar-nav">
 			<li class="active dropdown yamm-fw">
 				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Inicio</a>
+               
 				
 			</li>
-              <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
-while($row=mysqli_fetch_array($sql))
-{
-    ?>
+            <li class="dropdown yamm">
+            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Cursos</a>
 
-			<li class="dropdown yamm">
-				<a href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
-			
-			</li>
-			<?php } ?>
+           
+            </li>
+            <li class="dropdown yamm">
+            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Sobre Nosotros</a>
+
+           
+            </li>
 
 			
 		</ul><!-- /.navbar-nav -->
