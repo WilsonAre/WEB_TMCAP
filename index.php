@@ -177,7 +177,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<h4 class="info-box-heading green">Cursos especializados</h4>
 						</div>
 					</div>	
-					<h6 class="text">Con nuestros relatores especializadoreEEEs podras acceder a una variedad de cursos</h6>
+					<h6 class="text">Con nuestros relatores especializadores podras acceder a una variedad de cursos</h6>
 				</div>
 			</div><!-- .col -->
 

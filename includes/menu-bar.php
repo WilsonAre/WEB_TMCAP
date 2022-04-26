@@ -13,7 +13,7 @@
                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
 	<div class="nav-outer">
 		<ul class="nav navbar-nav">
-			<li class="active dropdown yamm-fw">
+			<li class="dropdown yamm-fw">
 				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Inicio</a>
                
 				
@@ -29,6 +29,23 @@
            
             </li>
 
+            <li class="dropdown yamm">
+            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Contacto</a>
+
+           
+            </li>
+
+            <li class="dropdown yamm">
+            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Relatores</a>
+
+           
+            </li>
+
+            <li class="dropdown yamm">
+            <a href="https://aula.tmcapacitacion.cl/login/index.php" data-hover="dropdown" class="dropdown-toggle">Acceso Aula</a>
+
+           
+            </li>
 
 			
 		</ul><!-- /.navbar-nav -->

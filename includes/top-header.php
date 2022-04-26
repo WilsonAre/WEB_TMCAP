@@ -17,7 +17,6 @@
 					<li><a href="my-account.php"><i class="icon fa fa-user"></i>Mi cuenta</a></li>
 					<li><a href="my-wishlist.php"><i class="icon fa fa-heart"></i>Lista de deseos</a></li>
 					<li><a href="my-cart.php"><i class="icon fa fa-shopping-cart"></i>Mi carrito</a></li>
-					<li><a href="#"><i class="icon fa fa-key"></i>Checkout</a></li>
 					<?php if(strlen($_SESSION['login'])==0)
     {   ?>
 <li><a href="login.php"><i class="icon fa fa-sign-in"></i>Iniciar sesión</a></li>
@@ -36,7 +35,7 @@ else{ ?>
 				</ul>
 			</div><!-- /.cnt-account -->
 
-<div class="cnt-block">
+<!--<div class="cnt-block">
 				<ul class="list-unstyled list-inline">
 					<li class="dropdown dropdown-small">
 						<a href="track-orders.php" class="dropdown-toggle" ><span class="key">Seguimiento de pedidos</b></a>
@@ -45,7 +44,7 @@ else{ ?>
 
 				
 				</ul>
-			</div>
+			</div> -->
 			
 			<div class="clearfix"></div>
 		</div><!-- /.header-top-inner -->
