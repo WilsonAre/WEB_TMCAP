@@ -1230,7 +1230,7 @@ input.home-green,
 .button.home-green, 
 #main-navigation li.home-green li, 
 span.product-action.home-green{
-	background:#1abc9c!important;
+	background:#363636!important;
 }
 
 li.home-green>a:hover, 
@@ -1241,24 +1241,24 @@ li.home-green.current-item>a,
 li.home-green.current-item, 
 .icons.home-green:hover, 
 span.product-action.home-green:hover{
-	background:#16a085!important;
+	background:#147bda!important;
 }
 
 li.home-green .parent-background{
-	background:#1abc9c;
+	background:#0d5cdb;
 }
 
 li.home-green .parent-border{
-	border-color:#1abc9c;
+	border-color:#0c4ed2;
 }
 
 li.home-green .parent-arrow:after{
-	border-bottom-color:#1abc9c;	
+	border-bottom-color:#164bd0;	
 }
 
 li.home-green .parent-color, 
 a.home-green{
-	color:#1abc9c;
+	color:#1047d3;
 }
 
 
