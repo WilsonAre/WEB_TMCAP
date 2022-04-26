@@ -386,7 +386,7 @@ echo "Tu carrito de compras esta vacío";
 </div>			</div>
 		</div> 
 		</form>
-<?php echo include('includes/brands-slider.php');?>
+
 </div>
 </div>
 <?php include('includes/footer.php');?>

@@ -555,7 +555,7 @@ while ($row=mysqli_fetch_array($ret))
 		</section>
 
 	
-<?php include('includes/brands-slider.php');?>
+
 </div>
 </div>
 <?php include('includes/footer.php');?>
