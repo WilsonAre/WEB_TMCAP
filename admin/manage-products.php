@@ -63,7 +63,6 @@ if(isset($_GET['del']))
 											<th>Producto</th>
 											<th>Categoria </th>
 											<th>Subcategoria</th>
-											<th>Marca</th>
 											<th>Fecha de creación</th>
 											<th>Acción</th>
 										</tr>
@@ -80,7 +79,6 @@ while($row=mysqli_fetch_array($query))
 											<td><?php echo htmlentities($row['productName']);?></td>
 											<td><?php echo htmlentities($row['categoryName']);?></td>
 											<td> <?php echo htmlentities($row['subcategory']);?></td>
-											<td><?php echo htmlentities($row['productCompany']);?></td>
 											<td><?php echo htmlentities($row['postingDate']);?></td>
 											<td>
 											<a href="edit-products.php?id=<?php echo $row['id']?>" ><i class="icon-edit"></i></a>

@@ -395,28 +395,7 @@ $num=mysqli_num_rows($rt);
 
 
 <div class="stock-container info-container m-t-10">
-								<div class="row">
-									<div class="col-sm-3">
-										<div class="stock-box">
-											<span class="label">Costo de envío:</span>
-										</div>	
-									</div>
-									<div class="col-sm-9">
-										<div class="stock-box">
-											<span class="value"><?php if($row['shippingCharge']==0)
-											{
-												echo "Gratis";
-											}
-											else
-											{
-												echo htmlentities($row['shippingCharge']);
-											}
-
-											?></span>
-										</div>	
-									</div>
-								</div><!-- /.row -->	
-							</div>
+								
 
 							<div class="price-container info-container m-t-20">
 								<div class="row">

@@ -13,11 +13,9 @@ if(isset($_POST['submit']))
 	$category=$_POST['category'];
 	$subcat=$_POST['subcategory'];
 	$productname=$_POST['productName'];
-	$productcompany=$_POST['productCompany'];
 	$productprice=$_POST['productprice'];
 	$productpricebd=$_POST['productpricebd'];
 	$productdescription=$_POST['productDescription'];
-	$productscharge=$_POST['productShippingcharge'];
 	$productavailability=$_POST['productAvailability'];
 	$productimage1=$_FILES["productimage1"]["name"];
 	$productimage2=$_FILES["productimage2"]["name"];
@@ -34,7 +32,7 @@ if(!is_dir($dir)){
 	move_uploaded_file($_FILES["productimage1"]["tmp_name"],"productimages/$productid/".$_FILES["productimage1"]["name"]);
 	move_uploaded_file($_FILES["productimage2"]["tmp_name"],"productimages/$productid/".$_FILES["productimage2"]["name"]);
 	move_uploaded_file($_FILES["productimage3"]["tmp_name"],"productimages/$productid/".$_FILES["productimage3"]["name"]);
-$sql=mysqli_query($con,"insert into products(category,subCategory,productName,productCompany,productPrice,productDescription,shippingCharge,productAvailability,productImage1,productImage2,productImage3,productPriceBeforeDiscount) values('$category','$subcat','$productname','$productcompany','$productprice','$productdescription','$productscharge','$productavailability','$productimage1','$productimage2','$productimage3','$productpricebd')");
+$sql=mysqli_query($con,"insert into products(category,subCategory,productName,productPrice,productDescription,productAvailability,productImage1,productImage2,productImage3,productPriceBeforeDiscount) values('$category','$subcat','$productname','$productprice','$productdescription','$productavailability','$productimage1','$productimage2','$productimage3','$productpricebd')");
 $_SESSION['msg']="Producto insertado correctamente !!";
 
 }
@@ -145,12 +143,6 @@ while($row=mysqli_fetch_array($query))
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Marca del Producto</label>
-<div class="controls">
-<input type="text"    name="productCompany"  placeholder="Ingrese marca del producto" class="span8 tip" required>
-</div>
-</div>
-<div class="control-group">
 <label class="control-label" for="basicinput">Precio de producto sin descuento</label>
 <div class="controls">
 <input type="text"    name="productpricebd"  placeholder="Ingrese descuento del producto" class="span8 tip" required>
@@ -172,12 +164,6 @@ while($row=mysqli_fetch_array($query))
 </div>
 </div>
 
-<div class="control-group">
-<label class="control-label" for="basicinput">Costo de envío</label>
-<div class="controls">
-<input type="text"    name="productShippingcharge"  placeholder="Ingres costo de envio" class="span8 tip" required>
-</div>
-</div>
 
 <div class="control-group">
 <label class="control-label" for="basicinput">Disponibilidad de Producto</label>
