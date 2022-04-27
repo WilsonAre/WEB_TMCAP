@@ -211,7 +211,7 @@ $num=mysqli_num_rows($rt);
 						<a href="my-wishlist.php?page=product&action=add&id=<?php echo $row['pid']; ?>" class="btn-upper btn btn-primary">Agregar a carrito</a>
 					</td>
 					<td class="col-md-2 close-btn">
-						<a href="my-wishlist.php?del=<?php echo htmlentities($row['wid']);?>" onClick="return confirm('Are you sure you want to delete?')" class=""><i class="fa fa-times"></i></a>
+						<a href="my-wishlist.php?del=<?php echo htmlentities($row['wid']);?>" onClick="return confirm('¿Estás seguro de que lo deseas eliminar?')" class=""><i class="fa fa-times"></i></a>
 					</td>
 				</tr>
 				<?php } } else{ ?>
