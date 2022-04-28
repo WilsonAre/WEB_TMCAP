@@ -185,7 +185,7 @@ return true;
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
 				<li><a href="#">Inicio</a></li>
-				<li class='active'>Checkout</li>
+				<li class='active'>Mi Cuenta</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
 	</div><!-- /.container -->
