@@ -43,7 +43,7 @@
             		 <!-- ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
 	<div class="module-heading">
-		<h4 class="module-title">Conctáctenos</h4>
+		<h4 class="module-title">Contáctenos</h4>
 	</div><!-- /.module-heading -->
 
 	<div class="module-body outer-top-xs">

@@ -35,7 +35,9 @@
             
             <input class="search-field" placeholder="Buscar aqui..." name="product" required="required" />
             
-            <button class="search-button" type="submit" name="search"></button>    
+            <button class="btn btn-primary icon" type="submit" name="search">
+			<i class="fa fa-search"></i>
+			</button>    
 
         </div>
     </form>
