@@ -24,7 +24,7 @@
            
             </li>
             <li class="dropdown yamm">
-            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Sobre Nosotros</a>
+            <a href="sobrenosotros.php" data-hover="dropdown" class="dropdown-toggle">Sobre Nosotros</a>
 
            
             </li>
