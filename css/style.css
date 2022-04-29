@@ -132,7 +132,7 @@ a:active{
 }
 
 span.green{
-	color:#2ecc71;
+	color:#2e75cc;
 }
 
 span.red, span.error{
@@ -862,7 +862,7 @@ span.nav-description{
 	-ms-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	vertical-align:middle;
-	background:#1abc9c;
+	background:#0b7ed5;
 }
 
 #main-navigation .nav-search:hover{
@@ -901,7 +901,7 @@ span.nav-description{
 	background:#34495e;
 	position:absolute;
 	z-index:1000;
-	color:#fff;
+	color:rgb(255, 255, 255);
 	padding:15px 120px 0 0;
 	top:0;
 	left:0;
@@ -1001,7 +1001,7 @@ span.nav-description{
 
 #search-button input[type="submit"]{
 	height:100%;
-	background:#1abc9c;
+	background:#0c9fd9;
 	transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
@@ -1025,7 +1025,7 @@ span.nav-description{
 }
 
 #search-button:hover input[type="submit"]{
-	background:#16a085;
+	background:#0ca0ea;
 }
 
 #search-button .icons{
@@ -1912,7 +1912,7 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	-o-opacity:0;
 	transition:opacity 0.3s;
 	-webkit-transition:opacity 0.3s;
-	-moz-transition.:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
 	-ms-transition:opacity 0.3s;
 	-o-transition:opacity 0.3s;
 }
@@ -1932,7 +1932,7 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	-o-opacity:0;
 	transition:opacity 0.3s;
 	-webkit-transition:opacity 0.3s;
-	-moz-transition.:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
 	-ms-transition:opacity 0.3s;
 	-o-transition:opacity 0.3s;
 }

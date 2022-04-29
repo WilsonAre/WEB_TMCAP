@@ -47,7 +47,7 @@
 	</div><!-- /.module-heading -->
 
 	<div class="module-body outer-top-xs">
-        <ul class="toggle-footer" style="">
+        <ul class="toggle-footer">
             <li class="media">
                 <div class="pull-left">
                      <span class="icon fa-stack fa-lg">

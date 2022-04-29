@@ -115,6 +115,16 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   display: none;
   
 }
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
 </style>
 </head>
  <body class="cnt-home" onload="myFunction()" style="margin:0;">
@@ -127,20 +137,83 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <?php include('includes/main-header.php');?>
 <?php include('includes/menu-bar.php');?>
 </header>
+
+<div class="breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-inner">
+			<ul class="list-inline list-unstyled">
+				<li><a href="home.html">Inicio</a></li>
+				<li class='active'>Sobre Nosostros</li>
+			</ul>
+		</div><!-- /.breadcrumb-inner -->
+	</div><!-- /.container -->
+</div><!-- /.breadcrumb -->
 <br>
-<br>
+
     <div class="container">
     <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
-			   <h3 class="new-product-title pull-left">Acerca de nosotros</h3>
+			   <h3 class="new-product-title pull-left">Bienbenidos a TM Capacitación</h3>
 				
 			</div>
 
+			
+
     </div>
+
+	<div class="body-content outer-top-bd">
+	<div class="container">
+		<div class="my-wishlist-page inner-bottom-sm">
+			<div class="row">
+				<div class="col-md-12 my-wishlist">
+	<div class="table-responsive">
+		<table class="table">
+			<thead>
+				<tr>
+					<th colspan="2">¿QUIENES SOMOS?</th>
+
+					
+				</tr>
+				
+			</thead>
+			
+		</table>
+	</div>
+	<h4>Somos una empresa, que nace por la necesidad de enseñar, capacitar y/o retroalimentar los 
+		diversos temas de la actualidad. Nuestro objetivo es crecer con ustedes y ser parte de vuestra actividad curricular.</h4>
+</div>			</div><!-- /.row -->
+		</div><!-- /.sigin-in-->
 	
+		
 
+		<div class="col-container">
+  <div class="col">
+    <h2>01</h2>
+	<h3>Por qué Elegirnos</h3>
+    <p>Queremos brindar la mejor calidad operativa, reduciendo márgenes de errores y enfocarnos mucho 
+		en las encuestas y hacer una buena retroalimentación de estas.</p>
 
+	<p>Nuestra diferenciación será la
+	calidad educativa, no haremos excepción de personas y promulgaremos dicha ley de nuestra empresa.</p>
+  </div>
 
+  <div class="col">
+    <h2>02</h2>
+	<h3>Nuestra Mision</h3>
+    <p>Orientar al constante perfeccionamiento y desarrollo de las competencias laborales, formar y capacitar 
+		en las distintas áreas que los individuos carecen y de esa forma poder ampliar su mundo laboral el cual les 
+		permitirá mejorar su calidad de vida.</p>
+ 
+  </div>
+
+  <div class="col">
+    <h2>03</h2>
+	<h3>Nuestra Vision</h3>
+    <p>Buscamos perfeccionarnos cada día mas en nuestra calidad y operatividad, el compromiso con la satisfacción 
+		total de nuestros clientes y poder elevar su nivel de conocimiento y productividad de ellos. </p>
+    
+  </div>
+</div>
 
 
 
