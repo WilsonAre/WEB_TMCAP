@@ -61,7 +61,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.png">
@@ -199,7 +199,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   </div>
 
   <div class="col">
-  <i class='fas fa-lightbulb' style='font-size:50px'></i>        
+  <i class='fa fa-building' style='font-size:50px'></i>        
 	<h3>Nuestra Mision</h3>
     <p>Orientar al constante perfeccionamiento y desarrollo de las competencias laborales, formar y capacitar 
 		en las distintas áreas que los individuos carecen y de esa forma poder ampliar su mundo laboral el cual les 
@@ -208,7 +208,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   </div>
 
   <div class="col">
-    <i class='fas fa-globe-americas' style='font-size:50px'></i> 
+    <i class='fa fa-eye' style='font-size:50px'></i> 
 	<h3>Nuestra Vision</h3>
     <p>Buscamos perfeccionarnos cada día mas en nuestra calidad y operatividad, el compromiso con la satisfacción 
 		total de nuestros clientes y poder elevar su nivel de conocimiento y productividad de ellos. </p>
