@@ -56,7 +56,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>Los Copihues 181, Penco</p>
+                    <p>Grumete Cabrales 25, Penco</p>
                 </div>
             </li>
 

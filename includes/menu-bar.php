@@ -30,7 +30,7 @@
             </li>
 
             <li class="dropdown yamm">
-            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Contacto</a>
+            <a href="contact.php" data-hover="dropdown" class="dropdown-toggle">Contacto</a>
 
            
             </li>
