@@ -188,7 +188,8 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
     <label for="correo">Correo</label>
     <input type="text" id="lname" name="lastname" placeholder="Su correo..">
-
+     
+	
     
     <label for="subject">Mensaje</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
