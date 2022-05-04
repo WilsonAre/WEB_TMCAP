@@ -126,6 +126,46 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   padding: 16px;
 }
 
+/* ==================================== */
+/*      aqui empieza  los testimonio    */
+/* ==================================== */
+
+.containeer {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.containeer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.containeer img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.containeer span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .containeer {
+      text-align: center;
+  }
+  .containeer img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
 </style>
 </head>
  <body class="cnt-home" onload="myFunction()" style="margin:0;">
@@ -216,6 +256,26 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   </div>
 </div>
 
+<br>
+
+<div class="container">
+    <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
+			<div class="more-info-tab clearfix">
+			   <h3 class="new-product-title pull-left">Testimonios de nuestros estudiantes</h3>
+				
+			</div>
+
+<div class="containeer">
+  <img src="img/profe6.png" alt="Avatar" style="width:90px">
+  <p><span>Francisco Ramirez.</span> Bombero Copec S.A</p>
+  <p>Es un desastre de web.</p>
+</div>
+
+<div class="containeer">
+  <img src="img/profe8.png" alt="Avatar" style="width:90px">
+  <p><span>Carlos Cartes</span> CEO at Company.</p>
+  <p>No one is better than John Doe.</p>
+</div>
 
 
 
