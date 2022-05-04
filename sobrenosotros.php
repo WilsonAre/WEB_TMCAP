@@ -183,7 +183,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	<div class="container">
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
-				<li><a href="home.html">Inicio</a></li>
+				<li><a href="index.php">Inicio</a></li>
 				<li class='active'>Sobre Nosostros</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->

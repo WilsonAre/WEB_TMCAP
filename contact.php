@@ -142,7 +142,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	<div class="container">
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
-				<li><a href="home.html">Inicio</a></li>
+				<li><a href="index.php">Inicio</a></li>
 				<li class='active'>Contacto</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
@@ -153,7 +153,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     <div class="container">
     <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
-			   <h3 class="new-product-title pull-left">Bienvenidos a TM Capacitación</h3>
+			   <h3 class="new-product-title pull-left">Mantengámonos en contacto</h3>
 				
 			</div>
 
@@ -166,38 +166,30 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<div class="my-wishlist-page inner-bottom-sm">
 			<div class="row">
 				<div class="col-md-12 my-wishlist">
-	<div class="table-responsive">
-		<table class="table">
-			<thead>
-				<tr>
-					<th colspan="2">Mantengámonos en contacto</th>
-
-					
-				</tr>
-				
-			</thead>
-			
-		</table>
-	</div>
+	
 
     <div class="container">
-  <form action="action_page.php">
+  		<form action="action_page.php">
 
-    <label for="fname">Nombre</label>
-    <input type="text" id="fname" name="firstname" placeholder="Su nombre..">
+			<label for="fname">Nombre</label>
+			<input type="text" id="fname" name="firstname" placeholder="Su nombre..">
 
-    <label for="correo">Correo</label>
-    <input type="text" id="lname" name="lastname" placeholder="Su correo..">
-     
-	
-    
-    <label for="subject">Mensaje</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			<label for="correo">Correo</label>
+			<input type="text" id="lname" name="lastname" placeholder="Su correo..">
+			
+			
+			
+			<label for="subject">Mensaje</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+			<input type="submit" value="Submit">
 
-  </form>
+ 		 </form>
+
+  
 </div>
+
+
     
 </div>			</div><!-- /.row -->
 		</div><!-- /.sigin-in-->
@@ -210,10 +202,10 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
   
 </div>
+
 <div class="container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.769767338265!2d-72.98583058511669!3d-36.72809028047092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96684ca4e4e50ed9%3A0xa947ec8c6b91277c!2sGrumete%20Cabrales%2025%2C%20Penco%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses-419!2scl!4v1651512868424!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
 
 
 
