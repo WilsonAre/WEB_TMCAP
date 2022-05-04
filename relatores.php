@@ -170,6 +170,17 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <br>
 
 <div class="container">
+    <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
+			<div class="more-info-tab clearfix">
+			   <h3 class="new-product-title pull-left">Relatores</h3>
+				
+			</div>
+
+			
+
+    </div>
+
+<div class="container">
   <div class="column">
     <h2>Alejandra Andrea Carrasco</h2>
     <p>Profesora</p>
@@ -177,10 +188,63 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   </div>
   <div class="column">
     <h2>Claudio Andrés Millan</h2>
-    <p>Kinesiologo</p>
+    <p>Prevencionista</p>
     <img src="img/profe2.png" alt="Avatar" class="image" width="290" height="290">
-    
+   </div>
+   <div class="column">
+    <h2>Ana María Daronch</h2>
+    <p>Kinesiologa</p>
+    <img src="img/profe3.png" alt="Avatar" class="image" width="290" height="290">
+   </div>
+</div>
+
+<div class="container">
+  <div class="column">
+    <h2>Catherine Inostroza</h2>
+    <p>Enfermera</p>
+    <img src="img/profe4.png" alt="Avatar" class="image" width="290" height="290">
   </div>
+  <div class="column">
+    <h2>Ethelyn Pinto</h2>
+    <p>Psicóloga</p>
+    <img src="img/profe5.png" alt="Avatar" class="image" width="290" height="290">
+   </div>
+   <div class="column">
+    <h2>Francisco Wladimir Briones</h2>
+    <p>Psicólogo</p>
+    <img src="img/profe6.png" alt="Avatar" class="image" width="290" height="290">
+   </div>
+</div>
+
+<div class="container">
+  <div class="column">
+    <h2>Gabriel Godoy</h2>
+    <p>Publicista</p>
+    <img src="img/profe7.png" alt="Avatar" class="image" width="290" height="290">
+  </div>
+  <div class="column">
+    <h2>J. Alfredo Rubilar</h2>
+    <p>Enfermero</p>
+    <img src="img/profe8.png" alt="Avatar" class="image" width="290" height="290">
+   </div>
+   <div class="column">
+    <h2>Jair Alberto Pérez</h2>
+    <p>Biotecnólogo Industrial</p>
+    <img src="img/profe9.png" alt="Avatar" class="image" width="290" height="290">
+   </div>
+</div>
+
+<div class="container">
+  <div class="column">
+    <h2>Priscila Sáez</h2>
+    <p>Trabajadora Social</p>
+    <img src="img/profe10.png" alt="Avatar" class="image" width="290" height="290">
+  </div>
+  <div class="column">
+    <h2>Verónica Villa</h2>
+    <p>Enfermera</p>
+    <img src="img/profe11.png" alt="Avatar" class="image" width="290" height="290">
+   </div>
 </div>
 
 <br/>
