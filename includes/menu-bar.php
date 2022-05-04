@@ -36,7 +36,7 @@
             </li>
 
             <li class="dropdown yamm">
-            <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Relatores</a>
+            <a href="relatores.php" data-hover="dropdown" class="dropdown-toggle">Relatores</a>
 
            
             </li>
