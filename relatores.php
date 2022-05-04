@@ -152,15 +152,15 @@ html {
   box-sizing: inherit;
 }
 
-.column {
+.columnn {
   float: left;
   width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+  margin-bottom: 26px;
+  padding: 0  12px;
 }
 
 @media screen and (max-width: 650px) {
-  .column {
+  .columnn {
     width: 100%;
     display: block;
   }
@@ -170,7 +170,7 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
+.containerr {
   padding: 0 16px;
 }
 
@@ -180,7 +180,7 @@ html {
   display: table;
 }
 
-.title {
+.titlee {
   color: grey;
 }
 
@@ -190,15 +190,17 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #3498db;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
-.button:hover {
-  background-color: #555;
+.buttonn:hover {
+  background-color: #3F80C1;
 }
+
+
 
 </style>
 </head>
@@ -238,41 +240,56 @@ html {
 
 
     <div class="row">
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe1.png" alt="Jane" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Alejandra Carrasco</h2>
         <p class="title">Profesora</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe2.png" alt="Mike" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Claudio Andrés Millan</h2>
-        <p class="title">Prevencionista</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p class="titlee">Prevencionista</p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe3.png" alt="John" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Ana María Daronch</h2>
         <p class="title">Kinesiologa</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
@@ -280,43 +297,57 @@ html {
 
 
 <div class="row">
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe4.png" alt="Jane" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Catherine Inostroza</h2>
         <p class="title">Enfermera</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
-        
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe5.png" alt="Mike" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Ethelyn Pinto</h2>
         <p class="title">Psicóloga</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
    
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe6.png" alt="John" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Francisco Briones</h2>
         <p class="title">Psicólogo</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
@@ -325,43 +356,58 @@ html {
 
 
 <div class="row">
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe7.png" alt="Jane" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Gabriel Godoy</h2>
         <p class="title">Publicista</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
 
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe8.png" alt="Mike" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>J. Alfredo Rubilar</h2>
         <p class="title">Enfermero</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
 
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe9.png" alt="John" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Jair Alberto Pérez</h2>
         <p class="title">Biotecnólogo Industrial</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
@@ -369,29 +415,39 @@ html {
 
    
 <div class="row">
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe10.png" alt="Jane" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Priscila Sáez</h2>
         <p class="title">Trabajadora Social</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
 
 
-  <div class="column">
+  <div class="columnn">
     <div class="card">
       <img src="img/profe11.png" alt="Mike" style="width:100%">
-      <div class="container">
+      <div class="containerr">
         <h2>Verónica Villa</h2>
         <p class="title">Enfermera</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+        <p>
+        <i class="fa fa-phone" style='font-size:18px'></i>  
+        +56952013781</p>
+        <p>
+        <i class="fa fa-envelope" style='font-size:18px'></i>  
+        contacto@tmcapacitacion.cl​</p>
+        <p><button class="buttonn">Ver Perfil</button></p>
+        <br>
       </div>
     </div>
   </div>
