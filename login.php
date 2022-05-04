@@ -162,7 +162,7 @@ function valid()
 {
  if(document.register.password.value!= document.register.confirmpassword.value)
 {
-alert("Password and Confirm Password Field do not match  !!");
+alert("La contraseña y correo no coinciden  !!");
 document.register.confirmpassword.focus();
 return false;
 }
@@ -215,7 +215,7 @@ error:function (){}
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
 				<li><a href="home.html">Inicio</a></li>
-				<li class='active'>Authentication</li>
+				<li class='active'>Autenticación</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
 	</div><!-- /.container -->
