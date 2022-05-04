@@ -184,7 +184,7 @@ html {
   color: grey;
 }
 
-.button {
+.buttonn {
   border: none;
   outline: 0;
   display: inline-block;
@@ -246,7 +246,7 @@ html {
         <p class="title">Profesora</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
-        
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
       </div>
     </div>
   </div>
@@ -259,7 +259,7 @@ html {
         <p class="title">Prevencionista</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
-       
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
       </div>
     </div>
   </div>
@@ -272,7 +272,7 @@ html {
         <p class="title">Kinesiologa</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
-       
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
       </div>
     </div>
   </div>
@@ -288,6 +288,7 @@ html {
         <p class="title">Enfermera</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
         
       </div>
     </div>
@@ -301,7 +302,7 @@ html {
         <p class="title">Psicóloga</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
-       
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
       </div>
     </div>
   </div>
@@ -315,7 +316,7 @@ html {
         <p class="title">Psicólogo</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
-       
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
       </div>
     </div>
   </div>
@@ -323,42 +324,91 @@ html {
  
 
 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/profe7.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Gabriel Godoy</h2>
+        <p class="title">Publicista</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="img/profe8.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>J. Alfredo Rubilar</h2>
+        <p class="title">Enfermero</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="img/profe9.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Jair Alberto Pérez</h2>
+        <p class="title">Biotecnólogo Industrial</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+      </div>
+    </div>
+  </div>
+</div>
 
    
-
-<div class="container">
+<div class="row">
   <div class="column">
-    <h2>Gabriel Godoy</h2>
-    <p>Publicista</p>
-    <img src="img/profe7.png" alt="Avatar" class="image" width="290" height="290">
+    <div class="card">
+      <img src="img/profe10.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Priscila Sáez</h2>
+        <p class="title">Trabajadora Social</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+      </div>
+    </div>
   </div>
-  <div class="column">
-    <h2>J. Alfredo Rubilar</h2>
-    <p>Enfermero</p>
-    <img src="img/profe8.png" alt="Avatar" class="image" width="290" height="290">
-   </div>
-   <div class="column">
-    <h2>Jair Alberto Pérez</h2>
-    <p>Biotecnólogo Industrial</p>
-    <img src="img/profe9.png" alt="Avatar" class="image" width="290" height="290">
-   </div>
-</div>
 
-<div class="container">
+
   <div class="column">
-    <h2>Priscila Sáez</h2>
-    <p>Trabajadora Social</p>
-    <img src="img/profe10.png" alt="Avatar" class="image" width="290" height="290">
+    <div class="card">
+      <img src="img/profe11.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Verónica Villa</h2>
+        <p class="title">Enfermera</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="btn-upper btn btn-primary checkout-page-button">Ver Perfil</button></p>
+      </div>
+    </div>
   </div>
-  <div class="column">
-    <h2>Verónica Villa</h2>
-    <p>Enfermera</p>
-    <img src="img/profe11.png" alt="Avatar" class="image" width="290" height="290">
-   </div>
-</div>
+  
+
+
+
 
 <br/>
 
+<br>
+<div class="container">
+
+</div>
+
+<br>
+<br>
 <?php include('includes/footer.php');?>
 	
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
