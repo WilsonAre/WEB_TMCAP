@@ -252,7 +252,8 @@ html {
         <p>
         <i class="fa fa-envelope" style='font-size:18px'></i>  
         contacto@tmcapacitacion.cl​</p>
-        <p><button class="buttonn">Ver Perfil</button></p>
+        
+        <a href="javascript:ventanaSecundaria('pdfRelatores/Curriculum-Alejandra-Carrasco.pdf')"><p><button class="buttonn">Ver Perfil</button></p> </a>
         <br>
       </div>
     </div>
@@ -512,6 +513,12 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+</script>
+
+<script> 
+function ventanaSecundaria (URL){ 
+   window.open(URL,"ventana1","width=620,height=600,scrollbars=NO") 
+} 
 </script>
 
   
