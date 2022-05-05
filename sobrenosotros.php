@@ -126,45 +126,114 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   padding: 16px;
 }
 
+
 /* ==================================== */
-/*      aqui empieza  los testimonio    */
+/*      aqui empieza  los testimonio 2   */
 /* ==================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
 
-.containeer {
-  border: 2px solid #ccc;
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0
+
+
+/*Styling the content*/
+
+.testimonial-container {
+    background-color: #FBFCF5;
+    color: #002A54;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 100px 120px;
+    max-width: 900px;
+    position: relative;
+    box-shadow: 8px 8px 27px 0px rgba(0,0,0,0.49);
+    overflow: hidden;
+    font-weight: 500;
 }
 
-.containeer::after {
-  content: "";
-  clear: both;
-  display: table;
+.fa-quote {
+    color: #3498db;
+    
+    font-size: 80px;
+    position: absolute;
 }
 
-.containeer img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
+.fa-quote-right {
+    right: 2px;
+    bottom: 100px;
 }
 
-.containeer span {
-  font-size: 20px;
-  margin-right: 15px;
+.fa-quote-left {
+    left: 3px;
+    bottom: 240px;
 }
 
-@media (max-width: 500px) {
-  .containeer {
-      text-align: center;
-  }
-  .containeer img {
-      margin: auto;
-      float: none;
-      display: block;
-  }
+.testimonial {
+    line-height: 28px;
+    text-align: justify;
 }
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user .user-image {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.user .user-details {
+    margin-left: 10px;
+}
+
+.user .username {
+    margin: 0;
+}
+
+.user .role {
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+.user .company {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #0F599E;
+    margin: 7px 0;
+}
+
+/*Styling the progress bar*/
+
+.progress-bar {
+    background-color: #3498db;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+}
+
+/*Responsive*/
+
+@media(max-width: 768px) {
+    .testimonial-container {
+        padding: 20px 30px;
+    }
+
+    .fa-quote {
+        display: none;
+    }
+}
+
+
 
 </style>
 </head>
@@ -258,27 +327,28 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 <br>
 
-<div class="container">
-    <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
-			<div class="more-info-tab clearfix">
-			   <h3 class="new-product-title pull-left">Testimonios de nuestros estudiantes</h3>
-				
-			</div>
-
-<div class="containeer">
-  <img src="img/profe6.png" alt="Avatar" style="width:90px">
-  <p><span>Francisco Ramirez.</span> Bombero Copec S.A</p>
-  <p>Es un desastre de web.</p>
-</div>
-
-<div class="containeer">
-  <img src="img/profe8.png" alt="Avatar" style="width:90px">
-  <p><span>Carlos Cartes</span> CEO at Company.</p>
-  <p>No one is better than John Doe.</p>
-</div>
 
 
 
+ <div class="testimonial-container">
+       <div class="progress-bar"></div>
+       <div class="fas fa-quote-right fa-quote"></div>
+       <div class="fas fa-quote-left fa-quote"></div>
+       <p class="testimonial">
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sit. Praesentium neque iure nesciunt natus fugiat repudiandae, at, in, labore doloribus incidunt animi laboriosam eveniet aperiam eligendi optio fugit ut quibusdam delectus eius. Voluptates minima porro quae numquam quasi tempora aspernatur aperiam adipisci veritatis vel, dolores aliquid, error, autem odit.
+       </p>
+       <div class="user">
+           <img src="img/profe6.png" alt="user" class="user-image">
+           <div class="user-details">
+               <h4 class="username">Carlos Cartes</h4>
+               <p class="role">Experto Java Script</p>
+               <h5 class="company">Helvetia</h5>
+           </div>
+       </div>
+   </div>
+
+
+   <br>
 
 
 
@@ -301,6 +371,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
+	<script src="https://kit.fontawesome.com/c06567aaeb.js" crossorigin="anonymous"></script>
 
 	<!-- For demo purposes – can be removed on production -->
 	
@@ -331,6 +402,66 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+</script>
+
+<script>
+const testimonialsContainer = document.querySelector('.testimonials-container')
+const testimonial = document.querySelector('.testimonial')
+const userImage = document.querySelector('.user-image')
+const username = document.querySelector('.username')
+const role = document.querySelector('.role')
+const enterprise = document.querySelector('.company');
+
+const testimonials = [{
+        name: 'Francisco Ramirez',
+        position: 'Bombero',
+        business: 'Coprec S.A',
+        photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6',
+        text: "Es un desastre de web.",
+    },
+    {
+        name: 'June Cha',
+        position: 'Software Engineer',
+        business: 'Facebook',
+        photo: 'https://randomuser.me/api/portraits/women/44.jpg',
+        text: 'This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!',
+    },
+    {
+        name: 'Iida Niskanen',
+        position: 'Data Entry',
+        business: 'Lawyers A.S',
+        photo: 'https://randomuser.me/api/portraits/women/68.jpg',
+        text: "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+    },
+   
+]
+
+let idx = 1;
+
+function updateTestimonial() {
+    const {
+        name,
+        position,
+        business,
+        photo,
+        text,
+    } = testimonials[idx];
+
+    testimonial.innerHTML = text;
+    userImage.src = photo;
+    username.innerHTML = name;
+    role.innerHTML = position;
+    enterprise.innerHTML = business;
+
+    idx++;
+
+    if (idx > testimonials.length - 1) {
+        idx = 0;
+    }
+}
+
+setInterval(updateTestimonial, 10000);
+
 </script>
 
   
