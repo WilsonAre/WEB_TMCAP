@@ -151,6 +151,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 .fa-quote {
     color: #3498db;
+	opacity: 0.3;
     
     font-size: 80px;
     position: absolute;
@@ -211,7 +212,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     background-color: #3498db;
     height: 4px;
     width: 100%;
-    animation: grow 10s linear infinite;
+    animation: grow 8.5s linear infinite;
     transform-origin: left;
 }
 
@@ -334,15 +335,16 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
        <div class="progress-bar"></div>
        <div class="fas fa-quote-right fa-quote"></div>
        <div class="fas fa-quote-left fa-quote"></div>
-       <p class="testimonial">
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sit. Praesentium neque iure nesciunt natus fugiat repudiandae, at, in, labore doloribus incidunt animi laboriosam eveniet aperiam eligendi optio fugit ut quibusdam delectus eius. Voluptates minima porro quae numquam quasi tempora aspernatur aperiam adipisci veritatis vel, dolores aliquid, error, autem odit.
-       </p>
+       <h3 class="testimonial">
+           Estoy fascinado con el curso, la mejor descición que he tomado
+        </h3>
+		<br>
        <div class="user">
            <img src="img/profe6.png" alt="user" class="user-image">
            <div class="user-details">
                <h4 class="username">Carlos Cartes</h4>
                <p class="role">Experto Java Script</p>
-               <h5 class="company">Helvetia</h5>
+               <h5 class="company">Duoc UC</h5>
            </div>
        </div>
    </div>
@@ -415,24 +417,18 @@ const enterprise = document.querySelector('.company');
 const testimonials = [{
         name: 'Francisco Ramirez',
         position: 'Bombero',
-        business: 'Coprec S.A',
-        photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6',
+        business: 'Copec S.A',
+        photo: 'img/profe9.png',
         text: "Es un desastre de web.",
     },
     {
-        name: 'June Cha',
+        name: 'Luis Avila',
         position: 'Software Engineer',
-        business: 'Facebook',
-        photo: 'https://randomuser.me/api/portraits/women/44.jpg',
-        text: 'This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!',
+        business: 'TM Capacitacion',
+        photo: 'img/profe7.png',
+        text: 'Excelentes profesores, un grato ambiente',
     },
-    {
-        name: 'Iida Niskanen',
-        position: 'Data Entry',
-        business: 'Lawyers A.S',
-        photo: 'https://randomuser.me/api/portraits/women/68.jpg',
-        text: "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
-    },
+ 
    
 ]
 
@@ -460,7 +456,7 @@ function updateTestimonial() {
     }
 }
 
-setInterval(updateTestimonial, 10000);
+setInterval(updateTestimonial, 9000);
 
 </script>
 
