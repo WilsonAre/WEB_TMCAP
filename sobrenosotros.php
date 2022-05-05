@@ -137,7 +137,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 /*Styling the content*/
 
 .testimonial-container {
-    background-color: #FBFCF5;
+    background-color: #f7f7f7;
     color: #002A54;
     border-radius: 20px;
     margin: 20px auto;
