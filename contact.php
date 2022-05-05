@@ -181,15 +181,15 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	</span>
 		<div class="form-group">
 		    <label class="info-title" for="exampleInputName1">Nombre <span>*</span></label>
-		    <input type="text" name="name" class="form-control unicase-form-control text-input" id="exampleInputName1" >
+		    <input type="text" name="name" class="form-control unicase-form-control text-input" id="exampleInputName1" required>
 		</div>
 		<div class="form-group">
 		    <label class="info-title" for="exampleInputEmail1">Correo electrónico <span>*</span></label>
-		    <input type="email" name="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+		    <input type="email" name="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
 		</div>
 		<div class="form-group">
 		    <label class="info-title" for="exampleInputMensaje1">Mensaje <span>*</span></label>
-		 <input type="text" name="message" class="form-control unicase-form-control text-input" id="exampleInputMensaje1" >
+		 <input type="text" name="message" class="form-control unicase-form-control text-input" id="exampleInputMensaje1" required>
 		</div>
 	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Enviar</button>
 	</form>					
