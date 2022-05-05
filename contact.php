@@ -240,6 +240,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
                     <span><a href="#">contacto@tmcapacitacion.cl</a></span>
                 </div>
             </li>
+			<br>
 			<div class="container">
         		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.769767338265!2d-72.98583058511669!3d-36.72809028047092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96684ca4e4e50ed9%3A0xa947ec8c6b91277c!2sGrumete%20Cabrales%2025%2C%20Penco%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses-419!2scl!4v1651512868424!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

@@ -234,6 +234,60 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     }
 }
 
+/* ==================================== */
+/*      aqui empieza  el contador    */
+/* ==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.columnnn {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.rown {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rown:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnnn {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.cardd {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #3498db;
+  border-radius: 20px;
+  color: white;
+  transition: transform .2s;
+}
+
+.cardd:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
 
 
 </style>
@@ -356,6 +410,50 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 
    <br>
+   <br>
+   <div class="container">
+    <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
+			<div class="more-info-tab clearfix">
+			   <h3 class="new-product-title pull-left">Nuestras Estadisticas</h3>
+				
+			</div>
+<br>
+   <div class="rown">
+  <div class="columnnn">
+    <div class="cardd">
+      <p><i class="fa fa-user" style='font-size:50px'></i></p>
+      <h3>614+</h3>
+      <p style='font-size:15px'>Estudiantes</p>
+    </div>
+  </div>
+
+  <div class="columnnn">
+    <div class="cardd">
+      <p><i class="fas fa-book" style='font-size:50px'></i></p>
+      <h3>158+</h3>
+      <p style='font-size:15px'>Cursos subidos</p>
+    </div>
+  </div>
+  
+  <div class="columnnn">
+    <div class="cardd">
+      <p><i class="fa fa-user-graduate" style='font-size:50px'></i></p>
+      <h3>598+</h3>
+      <p style='font-size:15px'>Estudiantes certificados</p>
+    </div>
+  </div>
+  
+  <div class="columnnn">
+    <div class="cardd">
+      <p><i class="fa fa-chalkboard-teacher" style='font-size:50px'></i></p>
+      <h3>16+</h3>
+      <p style='font-size:15px'>Total profesores</p>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
 
 
 
@@ -464,6 +562,8 @@ function updateTestimonial() {
 setInterval(updateTestimonial, 11000);
 
 </script>
+
+
 
   
 </body>
