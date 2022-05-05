@@ -168,10 +168,12 @@ html {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .containerr {
   padding: 0 16px;
+  
 }
 
 .container::after, .row::after {
@@ -194,11 +196,14 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+ 
 }
 
 .buttonn:hover {
   background-color: #3F80C1;
 }
+
+
 
 
 
