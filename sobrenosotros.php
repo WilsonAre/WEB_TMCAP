@@ -163,7 +163,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 }
 
 .fa-quote-left {
-    left: 3px;
+    left: 4px;
     bottom: 240px;
 }
 
@@ -212,7 +212,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     background-color: #3498db;
     height: 4px;
     width: 100%;
-    animation: grow 8.5s linear infinite;
+    animation: grow 10s linear infinite;
     transform-origin: left;
 }
 
@@ -461,7 +461,7 @@ function updateTestimonial() {
     }
 }
 
-setInterval(updateTestimonial, 9000);
+setInterval(updateTestimonial, 11000);
 
 </script>
 
