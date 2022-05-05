@@ -328,9 +328,14 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 <br>
 
+<div class="container">
+    <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
+			<div class="more-info-tab clearfix">
+			   <h3 class="new-product-title pull-left">Testimonios de nuestros estudiantes</h3>
+				
+			</div>
 
-
-
+<br>
  <div class="testimonial-container">
        <div class="progress-bar"></div>
        <div class="fas fa-quote-right fa-quote"></div>
