@@ -65,6 +65,12 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.png">
 
+		<!-- Icons/Glyphs -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!-- Fonts --> 
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+
         <style>
 /* Center the loader */
 #loader {
@@ -136,6 +142,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <?php include('includes/top-header.php');?>
 <?php include('includes/main-header.php');?>
 <?php include('includes/menu-bar.php');?>
+
 </header>
 
 <div class="breadcrumb">
@@ -163,31 +170,84 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 	<div class="body-content outer-top-bd">
 	<div class="container">
-		<div class="my-wishlist-page inner-bottom-sm">
+		<div class="sign-in-page inner-bottom-sm">
 			<div class="row">
-				<div class="col-md-12 my-wishlist">
-	
+				<!-- Sign-in -->			
+<div class="col-md-6 col-sm-6 sign-in">
+	<h4 class="">CONTACTO</h4>
+	<form action="https://formsubmit.co/freppunedoiwou-9388@yopmail.com" method="post">
+	<span style="color:red;" >
 
-    <div class="container">
-  		<form action="action_page.php">
-
-			<label for="fname">Nombre</label>
-			<input type="text" id="fname" name="firstname" placeholder="Su nombre..">
-
-			<label for="correo">Correo</label>
-			<input type="text" id="lname" name="lastname" placeholder="Su correo..">
-			
-			
-			
-			<label for="subject">Mensaje</label>
-			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-			<input type="submit" value="Submit">
-
- 		 </form>
-
-  
+	</span>
+		<div class="form-group">
+		    <label class="info-title" for="exampleInputName1">Nombre <span>*</span></label>
+		    <input type="text" name="name" class="form-control unicase-form-control text-input" id="exampleInputName1" >
+		</div>
+		<div class="form-group">
+		    <label class="info-title" for="exampleInputEmail1">Correo electrónico <span>*</span></label>
+		    <input type="email" name="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+		</div>
+		<div class="form-group">
+		    <label class="info-title" for="exampleInputMensaje1">Mensaje <span>*</span></label>
+		 <input type="text" name="message" class="form-control unicase-form-control text-input" id="exampleInputMensaje1" >
+		</div>
+	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Enviar</button>
+	</form>					
 </div>
+
+
+	
+	<div class="col-md-6 col-sm-6 contact-information">
+	<div class="checkout-subtitle">
+		<h4 class="module-title">PROBAN2</h4>
+		
+	</div><!-- /.module-heading -->
+	
+	<div class="module-body outer-top-xs">
+        <ul class="toggle-footer">
+            <li class="media">
+                <div class="pull-left">
+                     <span class="icon fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="media-body">
+                    <p>Grumete Cabrales 25, Penco</p>
+                </div>
+            </li>
+
+              <li class="media">
+                <div class="pull-left">
+                     <span class="icon fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="media-body">
+                    <p>(+56) 412513199<br>(+56) 952013781</p>
+                </div>
+            </li>
+
+              <li class="media">
+                <div class="pull-left">
+                     <span class="icon fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="media-body">
+                    <span><a href="#">contacto@tmcapacitacion.cl</a></span>
+                </div>
+            </li>
+			<div class="container">
+        		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.769767338265!2d-72.98583058511669!3d-36.72809028047092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96684ca4e4e50ed9%3A0xa947ec8c6b91277c!2sGrumete%20Cabrales%2025%2C%20Penco%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses-419!2scl!4v1651512868424!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+              
+            </ul>
+    </div><!-- /.module-body -->
+			
+</div><!-- /.contact-t
 
 
     
@@ -203,9 +263,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
   
 </div>
 
-<div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.769767338265!2d-72.98583058511669!3d-36.72809028047092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96684ca4e4e50ed9%3A0xa947ec8c6b91277c!2sGrumete%20Cabrales%2025%2C%20Penco%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses-419!2scl!4v1651512868424!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+
 
 
 
