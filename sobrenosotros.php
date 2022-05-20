@@ -519,10 +519,10 @@ const enterprise = document.querySelector('.company');
 
 const testimonials = [{
         name: 'Francisco Ramirez',
-        position: 'Bombero',
-        business: 'Copec S.A',
+        position: 'Estudiante',
+        business: 'TM CAPACITACION',
         photo: 'img/profe9.png',
-        text: "Es un desastre de web.",
+        text: "Muy buenos cursos y profesores",
     },
     {
         name: 'Luis Avila',
