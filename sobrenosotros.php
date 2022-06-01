@@ -361,15 +361,15 @@ body {
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/foto2relator.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="img/foto2relator.jpg" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="img/foto3relator.jpg" alt="Chicago" style="width:100%;">
+        <img src="img/foto3relator.jpg" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="img/foto1relator.jpg" alt="New york" style="width:100%;">
+        <img src="img/foto1relator.jpg" style="width:100%;">
       </div>
     </div>
 
