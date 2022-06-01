@@ -339,7 +339,8 @@ body {
 			<thead>
 				<tr>
 					<th colspan="2">¿QUIENES SOMOS?</th>
-
+            
+          
 					
 				</tr>
 				
@@ -348,6 +349,12 @@ body {
       
 			
 		</table>
+   <div class="container">
+   <h4>Somos una empresa, que nace por la necesidad de enseñar, capacitar y/o retroalimentar los 
+		diversos temas de la actualidad. Nuestro objetivo es crecer con ustedes y ser parte de vuestra actividad curricular.</h4>
+   </div>
+    
+   <br>
 
     <div class="container">  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -384,12 +391,8 @@ body {
     </a>
   </div>
 </div>
-	</div>
-	<h4>Somos una empresa, que nace por la necesidad de enseñar, capacitar y/o retroalimentar los 
-		diversos temas de la actualidad. Nuestro objetivo es crecer con ustedes y ser parte de vuestra actividad curricular.</h4>
-</div>			</div><!-- /.row -->
-		</div><!-- /.sigin-in-->
-	
+<br>
+<br>
 		
 
 		<div class="col-container">
