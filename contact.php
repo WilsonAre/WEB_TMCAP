@@ -199,7 +199,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	
 	<div class="col-xs-12 col-sm-6 col-md-4">
 	<div class="checkout-subtitle">
-		<h4 class="module-title">PROBAN2</h4>
+		<h4 class="module-title">DIRECCIÓN</h4>
 		
 	</div><!-- /.module-heading -->
 	
